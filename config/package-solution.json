@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "buttonscode-client-side-solution",
+    "id": "bcd051ff-2b80-425d-8cf7-0469b9fc1834",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "buttonscode description"
+      },
+      "longDescription": {
+        "default": "buttonscode description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "buttonscode Feature",
+        "description": "The feature that activates elements of the buttonscode solution.",
+        "id": "29364d71-a44c-4be5-81ec-dc6ca316ad02",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/buttonscode.sppkg"
+  }
+}

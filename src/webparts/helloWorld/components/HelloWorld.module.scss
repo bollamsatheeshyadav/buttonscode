@@ -1,0 +1,46 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+/* Controls overall web part size */
+.webpartContainer {
+  max-width: 520px;     // 🔹 controls webpart width
+  margin: 0 auto;       // center align
+}
+
+/* Grid */
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding: 8px;
+  background: #fff7e6;
+  border-radius: 10px;
+  width: 100%;          // 🔹 important
+}
+
+/* Cards */
+.card {
+  background: linear-gradient(135deg, #6B73FF, #FF6B88);
+  color: white;
+  width: 100px;        // 🔹 reduced
+  height: 70px;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Modal */
+.modalContent {
+  padding: 16px;
+  min-width: 380px;
+  max-width: 600px;
+}

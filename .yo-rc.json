@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "buttonscode",
+    "libraryId": "bcd051ff-2b80-425d-8cf7-0469b9fc1834",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "buttonscode",
+    "solutionShortDescription": "buttonscode description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
