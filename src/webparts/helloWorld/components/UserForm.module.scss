@@ -1,0 +1,131 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.userForm {
+  position: relative;
+  max-width: 600px;
+  margin: 40px auto;
+  background: #f5f7ff;
+  border-radius: 12px;
+  padding: 30px 25px; // main padding for all form fields
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1a4b8c;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #3a6edb;
+  }
+}
+
+.passengerTitle {
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+.userForm {
+  padding: 20px;
+}
+
+.formBody {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.passengerTitle {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.passengerRow {
+  display: flex;
+  gap: 8px;
+}
+
+.addPassenger {
+  margin-top: 8px;
+}
+
+.footerActions {
+  margin-top: 16px;
+}
+
+.message {
+  margin-bottom: 12px;
+}
+
+.passengerRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #e6f0ff;
+    border-radius: 6px;
+    padding: 5px;
+  }
+}
+
+.addPassenger {
+  align-self: flex-start;
+  background: #1a4b8c;
+  color: #fff;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: #3a6edb;
+    transform: scale(1.05);
+  }
+}
+
+.footerActions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.message {
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+/* Fluent UI inputs styling */
+.ms-TextField,
+.ms-Dropdown,
+.ms-DatePicker input {
+  background: #fff;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: #3a6edb;
+  }
+}

@@ -45,9 +45,21 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, IHello
           </div>
 
           <div className={styles.card} onClick={() => this.setState({ activeForm: 'employee' })}>
-            Employee Form
+           Employee form
           </div>
 
+          <div className={styles.card} onClick={() => this.setState({ activeForm: 'student' })}>
+            Student Form
+          </div>
+          <div className={styles.card} onClick={() => this.setState({ activeForm: 'student' })}>
+            Student Form
+          </div>
+          <div className={styles.card} onClick={() => this.setState({ activeForm: 'student' })}>
+            Student Form
+          </div>
+          <div className={styles.card} onClick={() => this.setState({ activeForm: 'student' })}>
+            Student Form
+          </div>
           <div className={styles.card} onClick={() => this.setState({ activeForm: 'student' })}>
             Student Form
           </div>
@@ -94,14 +106,15 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, IHello
 
         {/* FOREGROUND MODAL */}
         <Modal
-          isOpen={this.state.activeForm !== null}
-          onDismiss={this.closeModal}
-          isBlocking={true}
-        >
-          <div className={styles.modalContent}>
-            {this.renderForm()}
-          </div>
-        </Modal>
+  isOpen={this.state.activeForm !== null}
+  onDismiss={this.closeModal}
+  isBlocking={true}
+>
+  <div className={styles.modalContent}>
+    {this.renderForm()}
+  </div>
+</Modal>
+
       </>
     );
   }
